@@ -1,0 +1,160 @@
+body{
+  background-image: url('pics/background.jpg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.menu li{
+  margin-right: 20px;
+  font-family: Tilt Neon, Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(177, 94, 255);
+  transition: background-color 0.5s, color 0.5s;
+  border-radius: 10px;
+
+}
+
+.menu li:hover{
+  background-color: lightblue;
+  color: black;
+}
+
+.container{
+  border: 10px;
+  border-style: double;
+  border-color: black;
+  border-radius: 30px;
+  height: 350px;
+  background-color: rgb(69, 71, 75);
+}
+.short-introduction-title{
+  text-align: center;
+  font-family: Tilt Neon, Arial;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 15px;
+  color: yellow;
+}
+
+.profile-image{
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.short-description{
+  display: inline-block;
+  width: calc(100% - 240px);
+  vertical-align: top;
+  font-size: 25px;
+  font-family: Tilt Neon, Arial;
+  margin-left: 10px;
+  color: lightblue;
+  
+}
+
+.hobbies-container{
+  display: inline-block;
+  vertical-align: top;
+  border: 10px;
+  width: 40%;
+  height: 350px;
+  background-color:aqua;
+  margin-top: 50px;
+  border-style: double;
+  border-radius: 20px;
+  margin-right: 16%;
+}
+
+.hobbies-list{
+  font-size: 25px;
+  font-family: Tilt Neon, Arial;  
+}
+
+.likes-container{
+  display: inline-block;
+  border: 10px;
+  width: 40%;
+  height: 350px;
+  background-color: rgb(255, 0, 200);
+  margin-top: 50px;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.likes-list{
+  font-size: 25px;
+  font-family: Tilt Neon, Arial;  
+}
+
+@media (max-width: 450px){
+  
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .container{
+    border: 8px;
+    border-style: double;
+    border-color: black;
+    border-radius: 30px;
+    width: 96%;
+    height: 660px;
+  }
+
+  .short-description{
+    display: block;
+    width: 90%;
+    font-size: 20px;
+    font-family: Tilt Neon, Arial;
+    margin-left: 10px;
+    color: lightblue;
+  }
+
+  .profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+   
+  }
+  .hobbies-container{
+    display: block;
+    width: 96%;
+    padding: 0;
+  }
+  
+  .likes-container{
+    display: block;
+    width: 96%;
+  }
+} 
+
+
+

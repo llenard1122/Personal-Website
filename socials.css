@@ -1,0 +1,41 @@
+.social-container{
+    width: 300px;
+    height: 75px;
+    background-color: rgb(69, 71, 75);
+    border-style: double;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: color 0.5s, background-color 0.5s;
+}
+.social-container:hover{
+    background-color: purple;
+    color: white;
+}
+
+.social-icon{
+    display: inline-block;
+    width: 50px;
+    vertical-align:middle;
+}
+
+.social-description{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Tilt Neon, Arial;
+}
+
+.username-container{
+    width: 350px;
+    height: 75px;
+    background-color: rgb(69, 71, 75);
+    border-style: double;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
